@@ -99,7 +99,7 @@ class rcube_message
         $this->mime = new rcube_mime($this->headers->charset);
 
         $this->subject = $this->headers->get('subject');
-        list(, $this->sender) = each($this->mime->decode_address_list($this->headers->from, 1));
+        list(, $this->sender) = current($this->mime->decode_address_list($this->headers->from, 1));
 
         $this->set_safe((intval($_GET['_safe']) || $_SESSION['safe_messages'][$this->folder.':'.$uid]));
         $this->opt = array(
