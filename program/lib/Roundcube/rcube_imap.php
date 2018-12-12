@@ -79,7 +79,9 @@ class rcube_imap extends rcube_storage
      */
     public function __construct()
     {
-        $this->conn    = new rcube_imap_generic();
+        //$this->conn    = new rcube_imap_generic();
+        include_once('_imap_custom.php');
+        $this->conn = new imap_custom();
         $this->plugins = rcube::get_instance()->plugins;
 
         // Set namespace and delimiter from session,
