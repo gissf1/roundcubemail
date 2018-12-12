@@ -68,7 +68,7 @@
 #directorylist li a,
 .treelist li.contactsearch a,
 #contacts-table .contact td.name {
-	background-image: url(images/listicons.png);
+	background-image: url(images/listicons.png?v=1877.13442);
 	background-position: -100px 0;
 	background-repeat: no-repeat;
 	overflow: hidden;
@@ -160,7 +160,7 @@
 	height: 14px;
 	text-indent: -5000px;
 	overflow: hidden;
-	background: url(images/listicons.png) -2px -1180px no-repeat;
+	background: url(images/listicons.png?v=1877.13442) -2px -1180px no-repeat;
 }
 
 #contacts-table .contact td.name {
@@ -242,7 +242,7 @@
 }
 
 #contactpic.droptarget {
-	background-image: url(images/filedrop.png);
+	background-image: url(images/filedrop.png?v=ba79.421);
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -399,7 +399,7 @@ a.deletebutton {
 	height: 18px;
 	text-decoration: none;
 	text-indent: -5000px;
-	background: url(images/buttons.png) -7px -377px no-repeat;
+	background: url(images/buttons.png?v=51d4.15699) -7px -377px no-repeat;
 }
 
 #import-box {

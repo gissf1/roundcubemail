@@ -66,7 +66,7 @@ if (!defined('RCUBE_INSTALL_PATH')) {
 }
 
 if (!defined('RCUBE_CONFIG_DIR')) {
-    define('RCUBE_CONFIG_DIR', RCUBE_INSTALL_PATH . 'config/');
+    define('RCUBE_CONFIG_DIR', '/etc/roundcubemail/');
 }
 
 if (!defined('RCUBE_PLUGINS_DIR')) {

@@ -244,7 +244,7 @@ html.mozilla #mailboxlist > li:first-child {
 	right: 4px;
 	width: 20px;
 	height: 18px;
-	background: url(images/buttons.png) -3px -458px no-repeat;
+	background: url(images/buttons.png?v=51d4.15699) -3px -458px no-repeat;
 }
 
 #mailpreviewtoggle.enabled {
@@ -336,7 +336,7 @@ table.messagelist.fixedcopy {
 .messagelist thead tr th.sortedDESC a {
 	color: #004458;
 	text-decoration: underline;
-	background-image: url(images/listicons.png);
+	background-image: url(images/listicons.png?v=1877.13442);
 	background-repeat: no-repeat;
 	background-position: right -912px;
 }
@@ -403,7 +403,7 @@ table.messagelist.fixedcopy {
 	height: 18px;
 	width: 20px;
 	padding: 0;
-	background: url(images/listicons.png) -100px 0 no-repeat;
+	background: url(images/listicons.png?v=1877.13442) -100px 0 no-repeat;
 }
 
 .messagelist tbody tr td.attachment span.attachment {
@@ -727,7 +727,7 @@ h3.subject {
 	left: 0;
 	width: 18px;
 	height: 16px;
-	background: url(images/buttons.png) -27px -242px no-repeat;
+	background: url(images/buttons.png?v=51d4.15699) -27px -242px no-repeat;
 }
 
 .moreheaderstoggle.remove .iconlink {
@@ -747,7 +747,7 @@ div.more-headers {
 	width: 12px;
 	height: 10px;
 	cursor: pointer;
-	background: url(images/buttons.png) center -1579px no-repeat;
+	background: url(images/buttons.png?v=51d4.15699) center -1579px no-repeat;
 }
 
 div.hide-headers {
@@ -802,7 +802,7 @@ div.hide-headers {
 	width: 32px;
 	height: 32px;
 	overflow: hidden;
-	background: url(images/contactpic_32px.png) center center no-repeat #fff;
+	background: url(images/contactpic_32px.png?v=6be9.274) center center no-repeat #fff;
 	border-radius: 3px;
 }
 
@@ -826,7 +826,7 @@ div.hide-headers {
 	overflow: hidden;
 	border-radius: 4px;
 	border: 1px solid #e6e6e6;
-	background: url(images/contactpic_48px.png) center center no-repeat #fff;
+	background: url(images/contactpic_48px.png?v=1bc4.353) center center no-repeat #fff;
 }
 
 #messageheader #contactphoto img {
@@ -1117,7 +1117,7 @@ div.message-partheaders .headers-table td.header {
 
 #compose-contacts li a,
 #contacts-table td {
-	background-image: url(images/listicons.png);
+	background-image: url(images/listicons.png?v=1877.13442);
 	background-position: -100px 0;
 	background-repeat: no-repeat;
 	overflow: hidden;
@@ -1336,7 +1336,7 @@ div.message-partheaders .headers-table td.header {
 }
 
 #compose-attachments.droptarget {
-	background-image: url(images/filedrop.png);
+	background-image: url(images/filedrop.png?v=ba79.421);
 	background-position: center bottom;
 	background-repeat: no-repeat;
 }

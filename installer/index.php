@@ -41,7 +41,7 @@ ini_set('display_errors', 1);
 
 define('INSTALL_PATH', realpath(__DIR__ . '/../').'/');
 define('RCUBE_INSTALL_PATH', INSTALL_PATH);
-define('RCUBE_CONFIG_DIR', INSTALL_PATH . 'config/');
+define('RCUBE_CONFIG_DIR', '/etc/roundcubemail/');
 
 $include_path  = INSTALL_PATH . 'program/lib' . PATH_SEPARATOR;
 $include_path .= INSTALL_PATH . 'program/include' . PATH_SEPARATOR;

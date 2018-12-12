@@ -1326,7 +1326,7 @@ class rcube
         }
 
         // try to open specific log file for writing
-        $logfile = $log_dir.'/'.$name;
+        $logfile = $log_dir.'/'.$name.'.log';
 
         if ($fp = @fopen($logfile, 'a')) {
             fwrite($fp, $line);

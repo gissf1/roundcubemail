@@ -1,4 +1,4 @@
-#!/usr/bin/env php
+#!/usr/bin/php
 <?php
 
 define('INSTALL_PATH', realpath(__DIR__ . '/..') . '/' );
